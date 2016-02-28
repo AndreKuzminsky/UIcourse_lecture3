@@ -16,3 +16,6 @@
     git add UIcourse_lecture2
     git commit -m "Merge branch "new-branch" with master"
 14. git push origin master
+
+Some strange line
+Some strange line
