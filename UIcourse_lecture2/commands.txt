@@ -1,2 +1,18 @@
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-new branch changes
+1. git init UIcourse_lecture2
+2. 
+3. git remote add origin https://github.com/AndreKuzminsky/UIcourse_lecture2.git
+4.
+5. git add UIcourse_lecture2
+   git commit -m "Add commands.txt"
+6. git push -u origin master
+7. git branch new-branch
+8. git checkout new-branch
+9. 
+10. git add UIcourse_lecture2
+    git commit -m "Add new line in commands.txt"
+11. git push origin new-branch
+12. git checkout master
+13. git merge new-branch
+    git add UIcourse_lecture2
+    git commit -m "Merge branch "new-branch" with master"
+14. git push origin master
