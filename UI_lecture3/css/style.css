@@ -1,0 +1,114 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('font/helveticaneuecyr-roman.otf');
+}
+
+body {
+	width: 1130px;
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 120px;
+	color: #444444;
+	
+
+	border: 1px solid;
+}
+
+.top-menu {	background-color: #eeeeee;}
+
+.top-menu div {
+	display: inline-block;
+	padding: 12px 15px;
+}
+
+.top-menu div:first-child {
+	font-size: 18px;
+	padding: 8px 14px 11px 14px;
+	color: #4c4c4c;
+}
+
+.top-menu div:nth-child(3) {
+	background-color: #f5f5f5;
+}
+
+.divider {
+	border: 1px solid #e1e1e1;
+	margin: 35px 0;
+}
+
+.second-menu li{
+	display: inline;
+	padding: 8px 13px 6px 11px;
+	background-color: #eeeeee;
+}
+
+.second-menu li:first-child {
+	margin-left: -40px;
+	padding-right: 45px;
+	position: relative;
+}
+
+.second-menu li:first-child span::after {
+	content: "";
+	position: relative;
+	right: -30px;
+	top: 11px;
+	border: 5px solid transparent;
+	border-top: 5px solid #444444;
+}
+
+.color-item { color: #ffffff; }
+
+.second-menu li:nth-child(2) {
+	padding-right: 45px;
+	position: relative;
+	background-color: #00a8e6;
+}
+
+.second-menu li:nth-child(2) span::after {
+	content: "";
+	position: relative;
+	right: -30px;
+	top: 11px;
+	border: 5px solid transparent;
+	border-top: 5px solid #ffffff;
+}
+
+.second-menu li:nth-child(3) {
+	padding-right: 45px;
+	position: relative;
+	background-color: #8cc14c;
+}
+
+.second-menu li:nth-child(3) span::after {
+	content: "";
+	position: relative;
+	right: -30px;
+	top: 11px;
+	border: 5px solid transparent;
+	border-top: 5px solid #ffffff;
+}
+
+.second-menu li:nth-child(4) {
+	padding-right: 45px;
+	position: relative;
+	background-color: #da314b;
+}
+
+.second-menu li:nth-child(4) span::after {
+	content: "";
+	position: relative;
+	right: -30px;
+	top: 11px;
+	border: 5px solid transparent;
+	border-top: 5px solid #ffffff;
+}
+
+.second-menu li:nth-child(5) { color: #9b9b9b; }
+
+.second-menu li:last-child {
+	color: #0077dd;
+	background-color: transparent;
+}
